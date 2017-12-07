@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <string name="mybook">我的书籍</string>
+    <string name="bookname">书籍名称</string>
+    <string name="classify">分类</string>
+    <string name="type">类型</string>
+    <string name="update">更新</string>
+    <string name="delete">删除</string>
+    <string name="classifyname">分类名</string>
+    <string name="coverImg">封面:</string>
+    <string name="paperBook">纸质书</string>
+    <string name="ebook">电子书</string>
+    <string name="save">保存</string>
+    <string name="file">选择...</string>
+    <string name="name">名称:</string>
+    <string name="search">检索</string>
+    <string name="hint">请输入关键词</string>
+    <string name="typeText">类型:</string>
+    <string name="classifyTexy">分类:</string>
+    <string name="classifyDialog">添加更多</string>
+    <string name="classifyName">分类名:</string>
+    <string name="sortName">排序:</string>
+    <string name="ClassifyManager">分类管理</string>
+    <string name="searchBook">书籍检索</string>
+    <string name="addBook">添加书籍</string>
+    <string name="searchResult">检索结果</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/Index_bookImage"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="3"
+        android:background="@drawable/bolder"
+        android:scaleType="fitXY" />
+    <!--<com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/bookImage"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/qimu"
+        fresco:placeholderImage="@drawable/loading" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Index_bookName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="@string/bookname"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Index_bookClassify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="7"
+                android:paddingLeft="30dp"
+                android:text="@string/classify"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/Index_bookUpdate"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:padding="3dp"
+                android:text="@string/update" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Index_bookType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="7"
+                android:paddingLeft="30dp"
+                android:text="@string/type"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/Index_bookDelete"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:padding="3dp"
+                android:text="@string/delete" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

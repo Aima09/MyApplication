@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:background="@drawable/layer_bolder">
+
+    <ImageButton
+        android:id="@+id/classifyBackButton"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1.8"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/classifyTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="TextView"
+        android:textSize="27sp" />
+
+    <ImageButton
+        android:id="@+id/classifyMore"
+        android:layout_width="20dp"
+        android:layout_height="38dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="0.8"
+        android:background="@android:drawable/ic_input_add" />
+</LinearLayout>

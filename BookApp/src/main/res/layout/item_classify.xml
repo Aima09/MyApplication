@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/bolder"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/classifyName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="5"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="@string/classifyname"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/classifyUpdate"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="2.5"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/classifyDelete"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="2.5"
+        android:text="@string/delete" />
+
+</LinearLayout>

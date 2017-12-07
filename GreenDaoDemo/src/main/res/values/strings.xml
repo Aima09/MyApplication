@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GreenDaoDemo</string>
+    <string name="nameText">姓名:</string>
+    <string name="ageText">年龄:</string>
+    <string name="sexText">性别:</string>
+    <string name="salaryText">薪水:</string>
+    <string name="insertButton">插入</string>
+    <string name="queryText">查询</string>
+    <string name="updateText">更新</string>
+    <string name="deleteText">删除</string>
+    <string name="greendao">GreenDaoText</string>
+</resources>
