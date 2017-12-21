@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/361IjkPlayerDemo" />
+            <option value="$PROJECT_DIR$/AidlClientDemo" />
+            <option value="$PROJECT_DIR$/BookApp" />
+            <option value="$PROJECT_DIR$/FrescoDemo" />
+            <option value="$PROJECT_DIR$/GorgeCommiDemo" />
+            <option value="$PROJECT_DIR$/GreenDaoDemo" />
+            <option value="$PROJECT_DIR$/PLDroidPlayerDemo" />
+            <option value="$PROJECT_DIR$/PopupWindowDemo" />
+            <option value="$PROJECT_DIR$/RecyclerViewDemo" />
+            <option value="$PROJECT_DIR$/RecyclerViewOfLayoutDemo" />
+            <option value="$PROJECT_DIR$/TextViewDemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
