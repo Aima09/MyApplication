@@ -1,1 +1,1 @@
-include ':FrescoDemo', ':GreenDaoDemo', ':RecyclerViewDemo', ':BookApp', ':RecyclerViewOfLayoutDemo', ':AidlClientDemo', ':TextViewDemo', ':PopupWindowDemo', ':GorgeCommiDemo', ':361IjkPlayerDemo', ':PLDroidPlayerDemo'
+include ':FrescoDemo', ':GreenDaoDemo', ':RecyclerViewDemo', ':BookApp', ':RecyclerViewOfLayoutDemo', ':AidlClientDemo', ':TextViewDemo', ':PopupWindowDemo', ':GorgeCommiDemo', ':361IjkPlayerDemo', ':PLDroidPlayerDemo', ':BaseLibrary', ':GSYVideoPlayerIjkDemo'
