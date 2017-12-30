@@ -134,8 +134,8 @@ public class MainActivity extends AppCompatActivity implements IMediaController,
 
 
         //关联播放控制器
-        //  MediaController mediaController = new IMediaController(this);
-       // mPLVideoView.setMediaController(this);
+        yf.com.pldroidplayerdemo.MediaController mediaController=new yf.com.pldroidplayerdemo.MediaController(this);
+        mPLVideoView.setMediaController(mediaController);
         // 提供了各种画面预览模式，包括：原始尺寸、适应屏幕、全屏铺满、16:9、4:3 等
         //适应屏幕
         mPLVideoView.setDisplayAspectRatio(PLVideoView.ASPECT_RATIO_FIT_PARENT);
@@ -154,7 +154,6 @@ public class MainActivity extends AppCompatActivity implements IMediaController,
         //mPLVideoView.setCoverView(View coverView);
         //播放
         mPLVideoView.start();
-
         //控制播放器音量(音量参数的取值范围是：0.0～1.0，使用如下代码可以达到静音的效果：setVolume(0.0f, 0.0f);)
         // mPLVideoView.setVolume();
 
